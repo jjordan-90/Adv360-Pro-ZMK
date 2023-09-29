@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp DOLLAR     &kp AMPERSAND  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS             &kp PERCENT                                                                                &kp BACKSLASH  &kp PIPE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET   &kp HASH  &kp EXCLAMATION
-    &kp TAB     &kp SEMICOLON         &kp COMMA      &kp PERIOD                 &kp P     &kp Y            &kp ASTERISK                                                                                       &kp AT     &kp F                  &kp G            &kp C              &kp R      &kp L        &kp SLASH
-    &kp ESC             &kp A             &kp O           &kp E                 &kp U     &kp I               &kp GRAVE  &kp LEFT_CONTROL    &kp LALT                         &none    &kp RIGHT_ALT  &kp UNDERSCORE     &kp D                  &kp H            &kp T              &kp N      &kp S        &kp MINUS
-  &kp LSHFT  &kp SINGLE_QUOTE             &kp Q           &kp J                 &kp K     &kp X                                            &caps_word                  &kp CAPSLOCK                                      &kp B                  &kp M            &kp W              &kp V      &kp Z        &kp RSHFT
-      &to 1         &kp EQUAL          &kp LEFT       &kp RIGHT      &kp LEFT_COMMAND                         &kp SPACE     &kp BACKSPACE       &mo 2                         &mo 2  &kp RIGHT_SHIFT       &kp ENTER                &kp RIGHT_COMMAND           &kp UP           &kp DOWN  &kp CARET            &to 1
+   &kp DOLLAR     &kp AMPERSAND  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS             &kp PERCENT                                                                                         &kp BACKSLASH  &kp PIPE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &kp HASH  &kp EXCLAMATION
+      &kp TAB     &kp SEMICOLON         &kp COMMA      &kp PERIOD                 &kp P     &kp Y            &kp ASTERISK                                                                                                &kp AT     &kp F                  &kp G            &kp C              &kp R         &kp L        &kp SLASH
+      &kp ESC             &kp A             &kp O           &kp E                 &kp U     &kp I               &kp GRAVE  &kp LEFT_COMMAND          &kp LALT                  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp UNDERSCORE     &kp D                  &kp H            &kp T              &kp N         &kp S        &kp MINUS
+    &kp EQUAL  &kp SINGLE_QUOTE             &kp Q           &kp J                 &kp K     &kp X                                                  &caps_word                   &kp CAPSLOCK                                        &kp B                  &kp M            &kp W              &kp V         &kp Z        &kp CARET
+ &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp NUMBER_5                         &kp SPACE     &kp BACKSPACE  &kp LEFT_CONTROL                          &to 2    &kp RIGHT_SHIFT       &kp ENTER                     &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
             >;
         };
 
@@ -53,7 +53,7 @@
  &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans        &trans        &trans        &trans        &trans        &trans  &trans
  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
  &trans        &trans        &trans        &trans        &trans        &trans                            &trans                  &trans                        &trans        &trans        &trans        &trans        &trans  &trans
-  &to 0        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                      &trans        &trans        &trans        &trans   &to 0
+ &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                      &trans        &trans        &trans        &trans  &trans
             >;
         };
 
@@ -63,7 +63,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                   &to 0  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
